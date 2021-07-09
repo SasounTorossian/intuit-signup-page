@@ -1,0 +1,31 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body, nav, header, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+nav {
+    background-color: aqua;
+}
+
+header {
+    background-color: cadetblue;
+}
+
+main {
+    background-color: gold;
+}
+
+footer {
+    background-color: orchid;
+}
