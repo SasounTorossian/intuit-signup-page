@@ -6,21 +6,8 @@
 }
 
 @font-face {
-    font-family: Avenir;
-    src: url("../assets/fonts/avenir-100.woff2");
-    font-weight: 100;
-}
-
-@font-face {
-    font-family: Avenir;
-    src: url("../assets/fonts/avenir-400.woff2");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: Avenir;
-    src: url("../assets/fonts/avenir-700.woff2");
-    font-weight: 700;
+    font-family: AvenirNext;
+    src: url("../assets/fonts/AvenirNextLTPro-Regular.otf");
 }
 
 html, body, nav, header, main, footer {
@@ -29,7 +16,7 @@ html, body, nav, header, main, footer {
 }
 
 body {
-    background-color: darkgrey;
+    background-color: rgb(236, 238, 241);
 }
 
 nav {
@@ -40,9 +27,9 @@ header {
     background-color: gold;
 }
 
-main {
+/* main {
     background-color: white;
-}
+} */
 
 footer {
     background-color: orchid;
@@ -60,7 +47,7 @@ nav {
 
     font-size: 12px;
     line-height: 18px;
-    font-family: Avenir;
+    font-family: AvenirNext;
     font-weight: 400;
 }
 
@@ -152,7 +139,7 @@ header .logo {
     background-image: url("../assets/images/logo.png");
 }
 
-/* ===== MAIN ===== */
+/* ===== MAIN PRODUCTS ===== */
 main {
     display: flex;
     flex-direction: column;
@@ -233,4 +220,46 @@ main .products-list .turbotax-text {
     height: 22px;
     width: 74px;
     background-image: url("../assets/images/turbotax-text.svg");
+}
+
+/* ===== MAIN ACCOUNTS ===== */
+main .account-container {
+    height: 641px;
+    width: 380px;
+    padding: 30px;
+    margin: 0 270px;
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(199, 199, 199);
+}
+
+main .account-container .sign-up-container .header-container {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main .account-container .sign-up-container .header-container .header{
+    font-family: AvenirNext;
+    line-height: 26.4px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(57, 58, 61);
+}
+
+main .account-container .sign-up-container .header-container .sub-header {
+    font-family: AvenirNext;
+    line-height: 16.8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(57, 58, 61);
+    padding-top: 20px;
+}
+
+main .account-container .sign-up-container .header-container .sub-header a {
+    text-decoration: none;
+    color: rgb(0, 119, 197);
+}
+
+main .account-container .sign-up-container .header-container .sub-header a:hover {
+    text-decoration: underline;
 }
