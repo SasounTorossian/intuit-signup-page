@@ -37,11 +37,11 @@ nav {
 }
 
 header {
-    background-color: white;
+    background-color: gold;
 }
 
 main {
-    background-color: gold;
+    background-color: white;
 }
 
 footer {
@@ -150,4 +150,87 @@ header .logo {
     margin: 0 auto;
 
     background-image: url("../assets/images/logo.png");
+}
+
+/* ===== MAIN ===== */
+main {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+}
+
+main .product-container {
+    height: 42px;
+    line-height: 18px;
+    width: 100%;
+}
+
+main .products-header {
+    padding-bottom: 4px;
+}
+
+main ul {
+    height: 23px;
+    padding: 0;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+}
+
+main .products-list li {
+    display: inline;
+    margin-right: 9px;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+}
+
+main .products-list li span {
+    display: inline-block;
+    cursor: pointer;
+    height: 23px;
+    width: 23px;
+    /* margin-right: 4px; */
+}
+
+main .products-list li a{
+    display: inline-block;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+}
+
+main .products-list .mint-icon{
+    background-image: url("../assets/images/mint-logo.svg");
+}
+
+main .products-list .quickbooks-icon{
+    background-image: url("../assets/images/quickbooks-logo.svg");
+}
+
+main .products-list .turbotax-icon{
+    background-image: url("../assets/images/turbotax-logo.svg");
+}
+
+main .products-list .mint-text {
+    height: 20px;
+    width: 37px;
+    background-image: url("../assets/images/mint-text.svg");
+}
+
+main .products-list .quickbooks-text {
+    height: 22px;
+    width: 98px;
+    background-image: url("../assets/images/quickbooks-text.svg");
+}
+
+main .products-list .turbotax-text {
+    height: 22px;
+    width: 74px;
+    background-image: url("../assets/images/turbotax-text.svg");
 }
