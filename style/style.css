@@ -37,7 +37,7 @@ nav {
 }
 
 header {
-    background-color: cadetblue;
+    background-color: white;
 }
 
 main {
@@ -131,4 +131,23 @@ nav {
     margin-right: 6px;
     width: 16px;
     height: 20px;
+}
+
+/* ===== HEADER ===== */
+header {
+    padding: 20px 0;
+    width: 100%;
+}
+
+header .logo-container {
+    text-align: center;
+}
+
+header .logo {
+    display: block;
+    height: 35px;
+    width: 118px;
+    margin: 0 auto;
+
+    background-image: url("../assets/images/logo.png");
 }
