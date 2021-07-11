@@ -149,17 +149,19 @@ main ul {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 15px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     text-align: center;
-    position: relative;
+    /* position: relative; */
+    /* float: right; */
 }
 
 main .products-list li {
     display: inline;
     list-style-type: none;
-    list-style-position: outside;
     list-style-image: none;
-    float: left;
+    list-style-position: outside;
+    text-align: center;
+    font-size: 0;
 }
 
 main .products-list .li-pad-right {
@@ -171,7 +173,7 @@ main .products-list li span {
     cursor: pointer;
     height: 23px;
     width: 23px;
-    /* margin-right: 4px; */
+    margin-right: 4px;
 }
 
 main .products-list li a{
