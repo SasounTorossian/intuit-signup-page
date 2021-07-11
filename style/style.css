@@ -32,7 +32,7 @@ header {
 } */
 
 footer {
-    background-color: orchid;
+    background-color: aqua;
 }
 
 /* ===== NAV ===== */
@@ -440,5 +440,47 @@ main .captcha-container a {
 }
 
 main .captcha-container a:hover {
+    text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    height: 99px;
+    padding: 20px 0;
+
+    font-family: AvenirNext;
+    font-size: 12px;
+    line-height: 18px;
+
+    text-align: center;
+}
+
+footer .footer-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .lps ul{
+    padding: 5px 0 0 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+footer .lps ul li {
+    display: inline;
+    color: rgb(80, 80, 80);
+}
+
+footer .lps ul .li-pad {
+    padding-left: 10px;
+}
+
+footer .lps ul li a{
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+}
+
+footer .lps ul li a:hover{
     text-decoration: underline;
 }
