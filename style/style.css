@@ -227,7 +227,7 @@ main .account-container {
     height: 641px;
     width: 380px;
     padding: 30px;
-    margin: 0 270px;
+    margin: 0 auto;
 
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(199, 199, 199);
@@ -262,4 +262,91 @@ main .account-container .sign-up-container .header-container .sub-header a {
 
 main .account-container .sign-up-container .header-container .sub-header a:hover {
     text-decoration: underline;
+}
+
+/* ===== MAIN FORM */
+main form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+main form fieldset .form-container label{
+    display: block;
+    font-family: AvenirNext;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: rgb(64, 64, 64);
+
+    padding-bottom: 6px;
+    text-align: left;
+}
+
+main form fieldset .form-container input {
+    height: 34px;
+    min-width: 160px;
+    width: 320px;
+
+    font-family: AvenirNext;
+    font-size: 16.8px;
+    font-weight: 400;
+    line-height: 21.8px;
+    text-align: start;
+
+    margin: 0;
+    padding: 0 6px 0 8px;
+
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 3px;
+}
+
+main form fieldset .form-container input:focus-visible {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+main form fieldset .form-container input:focus {
+    border: 1px solid rgb(0, 119, 197);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 8%) inset, 0 0 8px rgb(82 168 236 / 60%);
+}
+
+main form fieldset .form-email {
+    height: 95px;
+}
+
+main form fieldset .form-phone {
+    height: 115px;
+}
+
+main form fieldset .form-phone span{
+    width: 100%;
+    font-family: AvenirNext;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    min-height: 20px;
+    color: rgb(68, 68, 68);
+    padding: 5px 0;
+}
+
+main form fieldset .form-password {
+    height: 98px;
+    position: relative;
+}
+
+main form fieldset .form-password .password-lock{
+    /* display: inline-block; */
+    background-image: url("../assets/images/lock.png");
+    background-size: 21px 21px;
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    background-position-y: 50%;    
+    position: absolute;
+    /* top: 1px; */
+    /* bottom: 1px; */
+    right: 1px;
+    width: 33px;
+    height: 32px;
 }

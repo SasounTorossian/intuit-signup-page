@@ -62,8 +62,25 @@
                         <a href="#">Learn more</a>
                     </div>
                 </div>
-                <form action="">
-                        
+                <form action="#" method="POST" autocomplete="off" novalidate>
+                    <fieldset>
+                        <div class="form-email form-container">
+                            <label for="email">Email address</label>
+                            <input type="emai" id="email" name="email-address">
+                        </div>
+
+                        <div class="form-phone form-container">
+                            <label for="telephone">Phone (recommended)</label>
+                            <input type="tel" id="telephone" name="telephone">
+                            <span>Standard call, message, or data rates may apply.</span>
+                        </div>
+
+                        <div class="form-password form-container">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password">
+                            <span class="password-lock"></span>
+                        </div>
+                    </fieldset>
                 </form>
             </section>
             <section class="captcha-container">
