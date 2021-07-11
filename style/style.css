@@ -411,3 +411,34 @@ main .terms a {
 main .terms a:hover {
     text-decoration: underline;
 }
+
+main .captcha-container {
+    margin: 32px -30px -30px -30px;
+    padding: 16px;
+    height: 53px;
+    display: block;
+
+    background-color: rgb(236, 238, 241);
+    
+    font-family: AvenirNext;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(141, 144, 150);
+    text-align: center;
+}
+
+main .captcha-container span {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15px;
+}
+
+main .captcha-container a {
+    color: rgb(0, 119, 197);
+    text-decoration: none;
+}
+
+main .captcha-container a:hover {
+    text-decoration: underline;
+}
