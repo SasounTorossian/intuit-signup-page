@@ -390,3 +390,24 @@ main form .submit-container button .submit-text {
     font-size: 15.75px;
     color: rgb(255, 255, 255);
 }
+
+main .terms {
+    padding-top: 10px;
+    text-align: center;
+
+    font-family: AvenirNext;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(117, 117, 117);
+}
+
+main .terms a {
+    color: rgb(0, 119, 197);
+    text-decoration: none;
+}
+
+main .terms a:hover {
+    text-decoration: underline;
+}
